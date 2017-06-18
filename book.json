@@ -1,0 +1,45 @@
+{
+    "title": "Tensorflow Handbook",
+    "author": "Pengfei Ni",
+    "gitbook": ">= 3.2.2",
+    "language": "zh-cn",
+    "plugins": [
+        "alerts",
+        "mermaid",
+        "github",
+        "github-buttons",
+        "page-treeview",
+        "editlink",
+        "-lunr",
+        "-search",
+        "search-plus"
+    ],
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 11
+    },
+    "pluginsConfig": {
+        "page-treeview": {
+            "copyright": "Copyright &#169; Pengfei Ni",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
+        "github-buttons": {
+            "repo": "feiskyer/tensorflow-handbook",
+            "types": [
+                "star",
+                "watch"
+            ],
+            "size": "small"
+        },
+        "github": {
+            "url": "https://github.com/feiskyer/tensorflow-handbook"
+        },
+        "editlink": {
+            "base": "https://github.com/feiskyer/tensorflow-handbook/blob/master/",
+            "label": "编辑本页"
+        }
+    },
+    "generator": "site"
+}

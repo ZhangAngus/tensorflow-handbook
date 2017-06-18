@@ -1,2 +1,1 @@
-# tensorflow-handbook
-Tensorflow实践
+# Tensorflow实践
