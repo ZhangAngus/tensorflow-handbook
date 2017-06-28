@@ -52,6 +52,7 @@ fi
 首先到网站<https://developer.nvidia.com/cudnn>注册，并下载cuDNN v5.1，然后运行命令安装
 
 ```sh
+wget https://www.dropbox.com/s/xdak8t60lzk11zb/cudnn-8.0-linux-x64-v5.1.tgz?dl=1 -O cudnn-8.0-linux-x64-v5.1.tgz
 tar zxvf cudnn-8.0-linux-x64-v5.1.tgz
 ln -s /usr/local/cuda-8.0 /usr/local/cuda
 sudo cp -P cuda/include/cudnn.h /usr/local/cuda/include
